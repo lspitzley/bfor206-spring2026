@@ -10,7 +10,7 @@ python class3-1.py
 print("Hello, World!")
 
 # create a variable with your name
-name = "Lee"
+name = "Lee Spitzley"
 
 # print the name
 print(name)    # only prints name
