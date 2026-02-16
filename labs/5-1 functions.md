@@ -19,8 +19,8 @@ the command line.
 
 ### Case 1
 
-```python
-# name your function add_numbers()
+```bash
+# run this in the terminal
 python functions_lab.py 8 9
 # output
 sum = 17
