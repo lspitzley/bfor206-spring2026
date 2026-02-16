@@ -12,3 +12,5 @@ Date        | Class | Topic                     | Lab                       | Lo
 2026-02-02  | 3-1   | IDE Tools & Printing      | Running Code              | [`Lab 3-1`](labs/3-1_running_code_lab.md)
 2026-02-04  | 3-2   | Variables and Operations  | Variables and Operations  | [`Lab 3-2`](labs/3-2_variables_operations_lab.md)
 2026-02-09  | 4-1   | Logical Tests             | Logical Tests             | [`Lab 4-1`](labs/4-1_logical_tests.md)
+2026-02-11  | 4-2   | Loops                     | Loops                     | [`Lab 4-2`](labs/4-2_loops.md)
+2026-02-16  | 5-1   | Functions                 | Functions                 | [`Lab 5-1`](labs/5-1_functions.md)
