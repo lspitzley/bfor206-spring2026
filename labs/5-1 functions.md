@@ -4,8 +4,6 @@
 
 Create a function that returns the sum of two numbers from
 the command line.
-It should print a message and quit if there are non-numeric data passed
-to the function.
 
 ## Normal Scenario
 
@@ -33,17 +31,6 @@ add_numbers(5, 6)
 "The sum is 11"
 ```
 
-### Case 2: Non-numeric Input
-
-```python
-add_numbers('a', 'bb')
-```
-
-### Case 2 output: Print an error message and continue
-
-```t
-"Non-numeric value entered: a"
-```
 
 ## Submission instructions
 
