@@ -79,7 +79,7 @@ and produce the expected output for cases similar to the examples provided above
 ## Submission Instructions
 
 The assignment will be submitted via GitHub Classroom. First,
-accept the assignment [Homework 1](https://classroom.github.com/a/****) and complete
+accept the assignment [Homework 1](https://classroom.github.com/a/bVaFHnIS) and complete
 your work in this repository.
 
 When you commit and push your code, GitHub will run auto-grading tests on your script.
