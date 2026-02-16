@@ -17,18 +17,14 @@ the command line.
 
 ## Test Cases
 
-### Case 1: Input
+### Case 1
 
 ```python
 # name your function add_numbers()
-add_numbers(5, 6)
+python functions_lab.py 8 9
+# output
+sum = 17
 
-```
-
-### Case 1: Output
-
-```t
-"The sum is 11"
 ```
 
 
