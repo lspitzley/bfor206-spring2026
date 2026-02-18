@@ -14,3 +14,4 @@ Date        | Class | Topic                     | Lab                       | Lo
 2026-02-09  | 4-1   | Logical Tests             | Logical Tests             | [`Lab 4-1`](labs/4-1_logical_tests.md)
 2026-02-11  | 4-2   | Loops                     | Loops                     | [`Lab 4-2`](labs/4-2_loops.md)
 2026-02-16  | 5-1   | Functions                 | Functions                 | [`Lab 5-1`](labs/5-1_functions.md)
+2026-02-18  | 5-2   | Tests                     | Tests                     | [`Lab 5-2`](labs/5-2_tests.md)
