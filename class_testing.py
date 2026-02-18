@@ -14,4 +14,7 @@ def string_checker(input_string:str, substring:str) -> bool:
     :rtype: bool
     """
 
-    pass # placeholder for preventing errors when there is no code yet.
+    if substring in input_string:
+        return True
+    else:
+        return False

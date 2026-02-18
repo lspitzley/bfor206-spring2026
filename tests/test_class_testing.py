@@ -16,5 +16,6 @@ def test_string_checker():
     """
 
     assert class_testing.string_checker('and', 'e') is False
+    assert class_testing.string_checker('and', 'a') is True
 
 
