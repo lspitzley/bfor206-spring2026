@@ -34,9 +34,9 @@ These are the specific features the system must perform. Priority is categorized
 
 | ID | Feature | Description | Priority |
 | :--- | :--- | :--- | :--- |
-| **F-01** |  |  |  |
-| **F-02** |  | |  |
-| **F-03** |  |  |  |
+| **F-01** | Document ordering | Cover page + MC/TF questions + Short answer | P1 |
+| **F-02** | Random question order per version | Each versions questions are randomized | P1 |
+| **F-03** | Question evaluation | After the exam, score questions on difficulty | P2 |
 | **F-04** | |  |  |
 
 ---
@@ -45,17 +45,17 @@ These are the specific features the system must perform. Priority is categorized
 
 These define the system’s constraints and quality attributes.
 
-* **Usability:**
-* **Performance:**
-* **Security:**
-* **Availability:**
-* **Scalability:**
+* **Usability:** Single command line interface for building exams and answer keys
+* **Performance:** Should take less than 30 minutes to make all exams
+* **Security:** No real student data on GitHub
+* **Availability:** Runs locally
+* **Scalability:** 
 
 ---
 
 ## 5. User Journey & Experience
 
-1. **Discovery:** [First steps for use]
+1. **Discovery:** Have a usage example for first-time use.
 2. **Setup:** [Basic configuration steps]
 3. **Execution:** [How to use the core features]
 4. **Conclusion:** [Successful usage]
@@ -74,8 +74,8 @@ These define the system’s constraints and quality attributes.
 
 To prevent "Scope Creep," we are explicitly **not** building:
 
-* A
-* B
+* Not integrating with Brightspace
+* Not scanning exams (these come from the Scantrons)
 * C
 
 ---
