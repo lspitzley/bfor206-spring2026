@@ -4,7 +4,7 @@ different file types in Python.
 """
 # imports
 import json
-
+import os
 
 # empty list to store file lines
 text_contents = []
@@ -35,3 +35,31 @@ print(f'Question ID: {question['question_id']}')
 print(f'Question Text: {question['question_text']}')
 print(f'Question answers: {question['answers']}')
 
+# list files with the 'os' library
+files = os.listdir('data')
+print(f"files in the data folder: {files}")
+
+# write to a new file
+# make sure you have a folder called 'output'
+with open('output/answers.csv', 'w') as f:
+    f.write('question_id,question_text,correct_answer')
+
+for file in files:
+    print(f"file: {file}")
+    
+    # only load json files
+    if file.endswith('.json'):
+        print(f'found json file: {file}')
+
+        # load the json file
+        # need to add the folder name because it only has the file name
+        with open('data/' + file, 'r') as f:
+            question = json.load(f)
+
+        # get the question id, text
+
+        # use a for loop to get the correct answer
+
+        # append the question id, text, and correct answer to the csv file
+        # use 'a' -> with open('output/answers.csv', 'a') as f:
+        # f.write(f"{question_id},{question_text},{correct_answer}\n")
