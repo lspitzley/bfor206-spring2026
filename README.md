@@ -20,3 +20,4 @@ Date        | Class | Topic                     | Lab                       | Lo
 2026-03-02  | 7-1   | Requirements Gathering    | Requirements Gathering    | [`Lab 7-1`](labs/7-1_requirements.md)
 2026-03-04  | 7-2   | Career Fair - No Class    | No lab                    | NA
 2026-03-09  | 8-1   | Read/Write                | Read/Write                | [`Lab 8-1`](labs/8-1_read-write.md)
+2026-03-11  | 8-2   | Pull Requests             | Pull Requests             | [`Lab 8-2`](labs/8-2_pull_requests.md)
