@@ -3,6 +3,7 @@ Attributes and functions of an exam.
 """
 
 # imports
+import random
 
 # define the class
 
@@ -34,7 +35,16 @@ class Exam:
 
         self.questions.append(question_text)
 
-        
+    def randomize_questions(self):
+        """
+        randomize question list
+        """
+
+        # take the list of questions, randomize, 
+        # and overwrite the original list
+        random.shuffle(self.questions)
+
+
 
 # this only runs if the file is called directly from the terminal
 # it will not run when imported by another script
@@ -44,12 +54,16 @@ if __name__ == '__main__':
     # list of questions
     question_list = ['Who do you think you are?',
                      'What is a question?',
-                     'What is class?']
+                     'What is a class?']
 
     # create an instance of an exam
     exam_v1 = Exam(1, 1, questions=question_list)
     print(f'Exam V1 Version: {exam_v1.exam_version}')
     print(f'Exam V1 Questions: {exam_v1.questions}')
+
+    # print after randomizing
+    exam_v1.randomize_questions()
+    print(f'Exam V1 questions (randomized): {exam_v1.questions}')
     
     # create another instance of an exam
     exam_v2 = Exam(exam_number=1, exam_version=2)
