@@ -13,21 +13,36 @@ class Exam:
     and functions to modify an exam.
     """
 
-    def __init__(self, exam_number, exam_version, questions=[]):
+    def __init__(self, exam_number: int, exam_version: int, questions=[]):
         """
-        initiate an instance of an exam
+        Instantiate an exam
+
+        Parameters
+        ----------
+        exam_number : int
+            The number of the exam
+        exam_version : int
+            Exam version number
+        questions : list, optional
+            Questions to include on the exam.
         """
 
-        self.cover_page = ""
-        self.questions = questions
-        self.answers = []
-        self.total_points = 0
         self.exam_number = exam_number
         self.exam_version = exam_version
+        self.questions = questions
+        self.cover_page = ""
+        self.answers = []
+        self.total_points = 0
+        
 
     def add_question(self, question_text: str):
         """
         Add a question to an existing exam
+
+        Parameters
+        ----------
+        question_text : str
+            The question to add
         """
 
         # use the self keyword to update an instance
@@ -37,7 +52,8 @@ class Exam:
 
     def randomize_questions(self):
         """
-        randomize question list
+        Randomize the question list. This will
+        overwrite the original question list.
         """
 
         # take the list of questions, randomize, 
