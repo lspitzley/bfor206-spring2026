@@ -72,6 +72,6 @@ ensure that you have access to this repository.
 Make sure that you create a new branch for your work. Multiple team members using the same
 branch may cause conflicts if they are not synchronized.
 
-The deadline for this assignment is 11:59 PM on March 25, 2026. Late submissions
+The deadline for this assignment is 11:59 PM on March 29, 2026. Late submissions
 will be deducted 1 point per day late. The assignment is graded out of 11 points;
 scores above that are extra credit.
