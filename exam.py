@@ -12,13 +12,13 @@ class Exam:
     and functions to modify an exam.
     """
 
-    def __init__(self, exam_number, exam_version):
+    def __init__(self, exam_number, exam_version, questions=[]):
         """
         initiate an instance of an exam
         """
 
         self.cover_page = ""
-        self.questions = []
+        self.questions = questions
         self.answers = []
         self.total_points = 0
         self.exam_number = exam_number
@@ -34,19 +34,21 @@ class Exam:
 
         self.questions.append(question_text)
 
+        
+
 # this only runs if the file is called directly from the terminal
 # it will not run when imported by another script
 if __name__ == '__main__':
     print('Exam Class Example')
 
-    # create an instance of an exam
-    exam_v1 = Exam(1, 1)
-    print(f'Exam V1 Version: {exam_v1.exam_version}')
-    print(f'Exam V1 Questions: {exam_v1.questions}')
+    # list of questions
+    question_list = ['Who do you think you are?',
+                     'What is a question?',
+                     'What is class?']
 
-    # add a question to V1
-    exam_v1.add_question('Who do you think you are?')
-    exam_v1.add_question('What is a question?')
+    # create an instance of an exam
+    exam_v1 = Exam(1, 1, questions=question_list)
+    print(f'Exam V1 Version: {exam_v1.exam_version}')
     print(f'Exam V1 Questions: {exam_v1.questions}')
     
     # create another instance of an exam
