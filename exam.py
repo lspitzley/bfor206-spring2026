@@ -29,7 +29,7 @@ class Exam:
 
         self.exam_number = exam_number
         self.exam_version = exam_version
-        self.questions = questions
+        self.questions = questions.copy()  # make a copy of the list to avoid modifying the original
         self.cover_page = ""
         self.answers = []
         self.total_points = 0
