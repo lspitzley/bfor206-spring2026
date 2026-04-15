@@ -24,3 +24,8 @@ Date        | Class | Topic                     | Lab                       | Lo
 2026-03-23  | 9-1   | Interviews                | Interviews                | [`Lab 9-1`](labs/9-1_interview.md)
 2026-03-25  | 9-2   | Objects                   | Objects                   | [`Lab 9-2`](labs/9-2_objects.md)
 2026-03-30  | 10-1  | Project Testing           | Project Testing           | [`Lab 10-1`](labs/10-1_project_testing.md)
+2026-04-01  | 10-2  | Testing from requirements | No Lab                    | NA
+2026-04-06  | 11-1  | AI-assisted Development   | No Lab                    | NA
+2026-04-08  | 11-2  | GitHub Issues             | Issue Assignment          | [`Lab 11-2`](labs/11-2_github_issues.md)
+2026-04-13  | 12-1  | Randomization             | Tests for Randomization   | [`Lab 12-1`](labs/12-1_randomization.md)
+2026-04-15  | 12-2  | Project Development       | Development Issues        | [`Lab 12-2`](labs/12-2_finding_problems.md)
