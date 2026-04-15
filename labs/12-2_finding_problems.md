@@ -17,7 +17,8 @@ assign it to yourself.
 from 11-2, this should result in a new branch named after the issue (e.g., `issue-56`).
 3. Begin working on the issue and commit a change to the branch.
 4. Push the branch to GitHub and open a new Pull Request (PR) from your branch to the main repository. Verify that the commit is visible in the Pull Request tab on the main repository page.
-5. For each error or issue you find that is not already documented, create a new issue on GitHub to document the problem.
+5. For each error or issue you find that is not already documented, either in an issue or pull request,
+create a new issue on GitHub to document the problem.
 6. In a comment on the issue, explain the problem as best you can. If you are able to identify a solution, include that in the comment as well.
 7. If you know who was originally responsible for the issue, assign it to them. If not, in a comment on the issue, notify the team responsible for that area. For example `@BFOR206/interface` will notify the members
 of the interface team that there is an issue related to the interface requirements.
